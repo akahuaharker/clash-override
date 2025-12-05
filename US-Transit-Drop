@@ -1,0 +1,8 @@
+proxies:
+  - name: US-Transit-Drop
+    type: ss
+    server: 107.173.103.59
+    port: 10800                
+    cipher: chacha20-poly1305
+    password: YOUR_VPS_PASSWORD 
+    udp: true
